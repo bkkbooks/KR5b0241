@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0241/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0241/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太一救苦天尊說拔度血湖寶懺
+  date: '2015-08-29 00:14:40.252192'
+  source:
+    repository: kanripo
+    path: KR5b0241
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0241_000-ZTDZ.yaml, hash: 'sha256:184c019b5bc9e2da959e4b7ccca9f81318f7e37357eb5d7f860c5a99730d0ad2'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0241_000-ZTDZ.markers.yaml, hash: 'sha256:16dc45d2d2aae2e311e1405cea42180e23f83d3f186abf7c845b2df3ba0f6b6d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0241_SJB_000-090892b
+    span:
+    - body
+    - 0
+    - 2217
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:564346685b2de7268a9eba598a35367cdfc0365e135522274ed8f094c57bbc7a
